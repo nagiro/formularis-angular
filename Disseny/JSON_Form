@@ -1,0 +1,70 @@
+  {
+    "PantallaActual": 1,
+    "LlistaPantalles" :
+    [
+        {
+            "NumPantalla": 1,
+            "Ordre": 1,
+            "BlocActual": 1,
+            "TitolBloc": "Titol del bloc",
+            "LlistaBlocs":
+            [
+                {
+                    "NumBloc": 1,
+                    "Ordre": 1,
+                    "Mode" : "SinglePage",
+                    "LlistaCamps": [
+                        {   "Tipus": 0, "Col": 3, "Text": "Som la polla", "Subtext": "Som la polla en vinagre", "Obligatori": false,
+                            "Validacio": { "tipus": "regexp", "valor": "99999999A" }
+                        },
+                        {
+                            "Tipus": 1, "Col": 3, "Text": "Som la polla", "Subtext": "Som la polla en vinagre", "Obligatori": false,
+                            "Validacio": { "tipus": "regexp", "valor": "99999999A" },
+                            "Options": [{ "key": "1", "value": "1" }, { "key": "1", "value": "1" }]
+                        },
+                        {
+                            "Tipus": "MultiplSelect1", "Col": 12, "Text": "Som la polla2", "SubText": "", "Obligatori": true,
+                            "Validacio" : { "Tipus": "function", "Valor": "ValidaMultiple1" },
+                            "Options":   [
+                                            { "key": "1", "value": [ {"key": "1", "value": "A"},{"key": "2", "value": "B"} ] },
+                                            { "key": "2", "value": [ {"key": "1", "value": "C"},{"key": "2", "value": "D"} ] }
+                                        ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+          "NumPantalla": 2,
+          "Ordre": 2,
+          "BlocActual": 1,
+          "TitolBloc": "Titol del bloc",
+          "LlistaBlocs":
+          [
+              {
+                  "NumBloc": 1,
+                  "Ordre": 1,
+                  "Mode" : "SinglePage",
+                  "LlistaCamps": [
+                      {   "Tipus": 0, "Col": 3, "Text": "Som la polla", "Subtext": "Som la polla en vinagre", "Obligatori": false,
+                          "Validacio": { "tipus": "regexp", "valor": "99999999A" }
+                      },
+                      {
+                          "Tipus": 1, "Col": 3, "Text": "Som la polla", "Subtext": "Som la polla en vinagre", "Obligatori": false,
+                          "Validacio": { "tipus": "regexp", "valor": "99999999A" },
+                          "Options": [{ "key": "1", "value": "1" }, { "key": "1", "value": "1" }]
+                      },
+                      {
+                          "Tipus": "MultiplSelect1", "Col": 12, "Text": "Som la polla2", "SubText": "", "Obligatori": true,
+                          "Validacio" : { "Tipus": "function", "Valor": "ValidaMultiple1" },
+                          "Options":   [
+                                          { "key": "1", "value": [ {"key": "1", "value": "A"},{"key": "2", "value": "B"} ] },
+                                          { "key": "2", "value": [ {"key": "1", "value": "C"},{"key": "2", "value": "D"} ] }
+                                      ]
+                      }
+                  ]
+              }
+          ]
+      }
+    ]
+}
